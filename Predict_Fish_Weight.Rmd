@@ -1,7 +1,7 @@
 ---
 title: "Weight of Fish"
-author: "Your Name"
-date: "`r Sys.Date()`"  
+author: "Syslee Evans"
+date: "Summer 2022"  
 output: 
   html_document:
     number_sections: true
@@ -16,10 +16,18 @@ output:
 ```{r include=FALSE,echo=FALSE}
 require(tigerstats)
 require(tidyverse)
+
+Fish = read.csv("Fish.csv")
+Perch = filter(Fish, Species == 'Perch')
+Pike = filter(Fish,Species == 'Pike')
+Roach = filter(Fish, Species == 'Roach')
 ```
 
 # Predicting Fish Weight
 
+```{r}
+
+```
 
 ## Perch
 
