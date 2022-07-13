@@ -53,10 +53,12 @@ as.data.frame(summary.out$outmat)
 ```
 
 ### Best Models
+
 Best models in this section are all the variables.
 
 ### Best Two regressor model
 
+The best two regressor model is Height and Length 2.
 
 ## Pike
 
@@ -84,7 +86,11 @@ as.data.frame(summary.out$outmat)
 ```
 ### Best Models
 
+Best models in this section are all the variables.
+
 ### Best Two regressor model
+
+The two best regressors for this section are length 3 and length 2.
 
 ## Roach
 
@@ -112,6 +118,13 @@ as.data.frame(summary.out$outmat)
 ```
 ### Best Models
 
+Best models in this section are all the variables.
+
 ### Best Two regressor model
 
+The two best regressors for this section are length 3 and length 2.
+
+
 ## Final Summary Statements
+
+Based on each data set we see that all of the variables are the best variables. In the first one the best 2 were height and length 2, For the second one the second best 2 are length 3 and length 2, Finally the third data set the best two are length 3 and length 2 as well.
