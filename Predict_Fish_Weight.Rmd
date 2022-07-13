@@ -26,7 +26,8 @@ Roach = filter(Fish, Species == 'Roach')
 # Predicting Fish Weight
 
 ```{r}
-
+pwt = lm(Weight~ Length1+ Length2 + Length3 + Height, data = Perch)
+summary(pwt)
 ```
 
 ## Perch
